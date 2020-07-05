@@ -76,21 +76,23 @@ Example:   ./dzme -m ./molecule.xyz -h list 7,9,13 -I ./substituents -O ./output
 ## Examples
 
 If the core molecule is the substituted furan:
-![alt text](https://github.com/CMCDD/DerivatizeMe/blob/master/graphics/core.png)[Furan Derivative]
+
+![alt text](https://github.com/CMCDD/DerivatizeMe/blob/master/graphics/core.png)
+
 Then we can substitute with methoxy and chloro in several ways
 
 ### Example 1 -h systematic
 ```
 ./dzme -h systematic -I ./subs -s cl.pdb,ome.pdb -x systematic.sdf
 ```
-![alt text](https://github.com/CMCDD/DerivatizeMe/blob/master/graphics/systematic.png)[Systematic]
+![alt text](https://github.com/CMCDD/DerivatizeMe/blob/master/graphics/systematic.png)
 
 ### Example 2 -h list
 The first hydrogen in the molecule is atom #8, the second is #9. The absolute atom number for the H atom must be used.
 ```
 ./dzme -h list 8,9 -I ./subs -s cl.pdb,ome.pdb -x list.sdf
 ```
-![alt text](https://github.com/CMCDD/DerivatizeMe/blob/master/graphics/list.png)[List]
+![alt text](https://github.com/CMCDD/DerivatizeMe/blob/master/graphics/list.png)
 
 
 
