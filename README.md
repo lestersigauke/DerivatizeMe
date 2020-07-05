@@ -2,11 +2,18 @@
 
 ## Installation
 
+```
 This requires the presence of openbabel-2, and is tested with openbabel 2.4.1. For older openbabel 2.0 you will need to comment out the line:
-311     themolecule.SetFormula(formula);//
+
+311     themolecule.SetFormula(formula);
+
 Edit Makefile accordingly if there are special locations for openbabel 2 include and library locations.
+
 type "make"
+
 for use type "./dzme"
+```
+
 
 ## Usage
 
