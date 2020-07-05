@@ -1,5 +1,10 @@
 # DerivatizeMe
 
+## About
+
+DerivatizeMe is primarily a means for very rapid decoration of a molecule with small substituents; this decoration may be fine tuned to be sparse or exhaustive.
+For larger substituents, conformational searching and minimization are possible, with a corresponding decrease in performance. This decoration is driven by hydrogen atoms within the parent molecule.
+
 ## Installation
 
 ```
