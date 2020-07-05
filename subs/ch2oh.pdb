@@ -1,0 +1,9 @@
+REMARK   Accelrys Discovery Studio PDB file
+REMARK   Created:  2020-07-04T13:52:34Z
+HETATM    1  H1          0      -3.768   1.317  -0.769  1.00  0.00           H  
+HETATM    2  C1          0      -4.436   0.928  -0.000  1.00  0.00           C  
+HETATM    3  O2          0      -4.003  -0.455   0.386  1.00  0.00           O  
+HETATM    4  H3          0      -5.455   0.895  -0.385  1.00  0.00           H  
+HETATM    5  H4          0      -4.399   1.578   0.875  1.00  0.00           H  
+HETATM    6  H4          0      -4.038  -1.081  -0.456  1.00  0.00           H  
+END

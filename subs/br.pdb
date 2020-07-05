@@ -1,0 +1,5 @@
+REMARK   Accelrys Discovery Studio PDB file
+REMARK   Created:  2020-06-30T17:06:03Z
+HETATM    1  H1          0      -8.156   0.920   0.973  1.00  0.00           H  
+HETATM    2 BR1          0      -7.372   1.504  -0.111  1.00  0.00          BR  
+END

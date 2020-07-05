@@ -1,0 +1,32 @@
+REMARK   Accelrys Discovery Studio PDB file
+REMARK   Created:  2020-07-04T19:15:43Z
+HETATM    1  H12 UNK     0      -1.984   3.398   0.285  1.00  0.00           H  
+HETATM    2  C1  UNK     0      -2.991   3.094   0.000  1.00  0.00           C  
+HETATM    3  C6  UNK     0      -3.281   1.687   0.554  1.00  0.00           C  
+HETATM    4  H13 UNK     0      -3.713   3.802   0.409  1.00  0.00           H  
+HETATM    5  H14 UNK     0      -3.072   3.081  -1.087  1.00  0.00           H  
+HETATM    6  C9  UNK     0      -2.262   0.687  -0.023  1.00  0.00           C  
+HETATM    7  H41 UNK     0      -2.467  -0.309   0.369  1.00  0.00           H  
+HETATM    8  H42 UNK     0      -1.254   0.989   0.262  1.00  0.00           H  
+HETATM    9  H43 UNK     0      -2.342   0.673  -1.110  1.00  0.00           H  
+HETATM   10  C12 UNK     0      -4.704   1.260   0.150  1.00  0.00           C  
+HETATM   11  H44 UNK     0      -3.201   1.701   1.641  1.00  0.00           H  
+HETATM   12  H45 UNK     0      -4.910   0.264   0.542  1.00  0.00           H  
+HETATM   13  H46 UNK     0      -4.785   1.246  -0.937  1.00  0.00           H  
+HETATM   14  H47 UNK     0      -5.426   1.967   0.558  1.00  0.00           H  
+TER      15      UNK     0 
+CONECT    1    2
+CONECT    2    1    4    3    5
+CONECT    3    2    6   10   11
+CONECT    4    2
+CONECT    5    2
+CONECT    6    3    7    8    9
+CONECT    7    6
+CONECT    8    6
+CONECT    9    6
+CONECT   10    3   12   13   14
+CONECT   11    3
+CONECT   12   10
+CONECT   13   10
+CONECT   14   10
+END
