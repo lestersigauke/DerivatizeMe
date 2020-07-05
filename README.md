@@ -79,15 +79,35 @@ If the core molecule is the substituted furan:
 
 ![alt text](https://github.com/CMCDD/DerivatizeMe/blob/master/graphics/core.png)
 
-Then we can substitute with methoxy and chloro in several ways
+### Example 1 -h ring (default substituents are NH2 and Cl)
+```
+./dzme -h ring -x ring.sdf
+```
+![alt text](https://github.com/CMCDD/DerivatizeMe/blob/master/graphics/ring.png)
 
-### Example 1 -h systematic
+### Example 2 properties (presented in default logfile.txt)
+```
+./dzme -h ring -x ring.sdf -phys 
+```
+```
+0000000001 : o1c(c(c(c1Cl)Cl)Cl)CO, Formula: C5H3Cl3O2, HBA: 4, HBD: 1, MW: 201.435, LogP: 2.7321, TPSA: 33.37
+0000000002 : o1c(c(c(c1N)Cl)Cl)CO, Formula: C5H5Cl2NO2, HBA: 7, HBD: 2, MW: 182.005, LogP: 2.2421, TPSA: 59.39
+0000000003 : o1c(c(c(c1Cl)N)Cl)CO, Formula: C5H5Cl2NO2, HBA: 7, HBD: 2, MW: 182.005, LogP: 2.2421, TPSA: 59.39
+0000000004 : o1c(c(c(c1N)N)Cl)CO, Formula: C5H7ClN2O2, HBA: 10, HBD: 3, MW: 162.574, LogP: 1.7521, TPSA: 85.41
+0000000005 : o1c(c(c(c1Cl)Cl)N)CO, Formula: C5H5Cl2NO2, HBA: 7, HBD: 2, MW: 182.005, LogP: 2.2421, TPSA: 59.39
+0000000006 : o1c(c(c(c1N)Cl)N)CO, Formula: C5H7ClN2O2, HBA: 10, HBD: 3, MW: 162.574, LogP: 1.7521, TPSA: 85.41
+0000000007 : o1c(c(c(c1Cl)N)N)CO, Formula: C5H7ClN2O2, HBA: 10, HBD: 3, MW: 162.574, LogP: 1.7521, TPSA: 85.41
+0000000008 : o1c(c(c(c1N)N)N)CO, Formula: C5H9N3O2, HBA: 13, HBD: 4, MW: 143.144, LogP: 1.2621, TPSA: 111.43
+```
+We can substitute with methoxy and chloro, for example, in other ways
+
+### Example 3 -h systematic
 ```
 ./dzme -h systematic -I ./subs -s cl.pdb,ome.pdb -x systematic.sdf
 ```
 ![alt text](https://github.com/CMCDD/DerivatizeMe/blob/master/graphics/systematic.png)
 
-### Example 2 -h list
+### Example 4 -h list
 The first hydrogen in the molecule is atom #8, the second is #9. The absolute atom number for the H atom must be used.
 ```
 ./dzme -h list 8,9 -I ./subs -s cl.pdb,ome.pdb -x list.sdf
