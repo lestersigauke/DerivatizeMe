@@ -2,7 +2,7 @@
 
 ## About
 
-DerivatizeMe is primarily a means for very rapid decoration of a molecule with small substituents; this decoration may be fine tuned to be sparse or exhaustive.
+DerivatizeMe is primarily a means for very rapid decoration of a molecule that is in 3 dimensions with small substituents; this decoration may be fine tuned to be sparse or exhaustive.
 For larger substituents, conformational searching and minimization are possible, with a corresponding decrease in performance. This decoration is driven by hydrogen atoms within the parent molecule.
 
 ## Installation
@@ -75,7 +75,7 @@ Example:   ./dzme -m ./molecule.xyz -h list 7,9,13 -I ./substituents -O ./output
 ```
 ## Examples
 
-If the core molecule is the substituted furan:
+An example core molecule is the substituted furan This compound has 6 hydrogen atoms, 3 on the ring, 2 aliphatic and 1 on the OH. These hydrogens must be present in the 3d structure file.
 
 ![alt text](https://github.com/CMCDD/DerivatizeMe/blob/master/graphics/core.png)
 
